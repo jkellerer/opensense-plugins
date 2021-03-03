@@ -35,4 +35,7 @@ use OPNsense\Base\BaseModel;
 
 class General extends BaseModel
 {
+    const NODE_EXPORTER_TEXTFILE_DIR = "/var/tmp/node_exporter";
+    const NODE_EXPORTER_TEXTFILE_WORKDIR = "/tmp/node_exporter";
+
 }
